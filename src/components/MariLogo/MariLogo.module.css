@@ -1,0 +1,45 @@
+.mariLogo{
+    width: 100%;
+    height: 30vh;
+    background: #1D4179;
+        position: relative;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 67% 76%, 50% 100%, 30% 76%, 0% 75%); */
+}
+.mariLogo .actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding-top: 1rem;
+color: #FFF;
+}
+.actions .mariback{
+display: flex;
+gap: .7rem;
+font-size: 20px;
+} 
+.mariHeader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+color: var(--White, #FFF);
+}
+.mariHeader h2{
+    font-family: Spline Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 1rem;
+}
+.mariHeader h3{
+    font-family: Spline Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+
+}

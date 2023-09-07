@@ -1,0 +1,10 @@
+.locationView{
+    display: flex;
+    gap: .5rem;
+    
+flex: 1 0 0;
+color: var(--sub, #69696A);
+    align-items: center;
+font-family: Spline Sans;
+margin-bottom: 1.7rem;
+}
